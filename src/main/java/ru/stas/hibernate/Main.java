@@ -15,6 +15,9 @@ public class Main
 
         UserRepository userRepository = new UserRepoImpl();
 
+        System.out.println("чисто тест ролбэка");
+
+
       /*  User user = new User();
         user.setFirstName( "Муха" );
         user.setSecondName( "Станислав" );
