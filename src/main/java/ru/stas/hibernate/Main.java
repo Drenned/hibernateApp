@@ -17,8 +17,6 @@ public class Main
 
         System.out.println("чисто тест ролбэка");
 
-        System.out.println("rollback test");
-
 
       /*  User user = new User();
         user.setFirstName( "Муха" );
