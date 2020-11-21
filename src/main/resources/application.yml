@@ -1,0 +1,9 @@
+spring:
+  datasourse:
+    driverClassName: "org.postgresql.Driver"
+    url: "jdbc:postgresql://localhost/testpostgres"
+    username: "postgres"
+    password: "longpassword"
+  jpa:
+    database-platform: "org.hibernate.dialect.PostgreSQLDialect"
+    show-sql: true

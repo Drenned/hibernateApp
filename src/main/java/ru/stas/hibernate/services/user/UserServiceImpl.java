@@ -1,11 +1,13 @@
 package ru.stas.hibernate.services.user;
 
+import org.springframework.stereotype.Component;
 import ru.stas.hibernate.model.User;
 import ru.stas.hibernate.repository.userrepository.UserRepoImpl;
 import ru.stas.hibernate.repository.userrepository.UserRepository;
 
 import java.util.List;
 
+@Component
 public class UserServiceImpl
     implements UserService
 {

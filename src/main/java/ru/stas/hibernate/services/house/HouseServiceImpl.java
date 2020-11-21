@@ -1,20 +1,20 @@
 package ru.stas.hibernate.services.house;
 
+import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Component;
 import ru.stas.hibernate.model.House;
 import ru.stas.hibernate.repository.houserepository.HouseRepoImpl;
 import ru.stas.hibernate.repository.houserepository.HouseRepository;
 
 import java.util.List;
 
+@Component
+@RequiredArgsConstructor
 public class HouseServiceImpl
     implements HouseService
 {
     private final HouseRepository houseRepository;
 
-    public HouseServiceImpl()
-    {
-        houseRepository=new HouseRepoImpl();
-    }
 
     @Override
     public House getById( int id )
